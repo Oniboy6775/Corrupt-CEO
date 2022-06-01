@@ -1,0 +1,103 @@
+.connect_wallet__btn {
+  padding: 1rem !important;
+  font-weight: 900;
+  /* border: 2px solid red !important; */
+}
+.main__container {
+  max-width: 700px;
+  width: 99%;
+  margin: auto;
+}
+.mint__container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  text-align: center;
+}
+.sub__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.gif {
+  border: 2px solid #fff;
+  margin-right: 1rem;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.mint__price__title {
+  color: var(--primary-500);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  width: 100%;
+}
+.min__price,
+.max__price {
+  margin: -1.5rem auto;
+  font-weight: 600;
+}
+.total__items {
+  font-size: larger;
+  color: var(--primary-500);
+}
+.gif {
+  width: 80%;
+}
+.gif__container {
+  display: flex;
+}
+.mint__counter__container {
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: var(--borderRadius);
+}
+.mint__counter__container .btn {
+  color: black;
+  font-weight: 900;
+}
+.count span {
+  margin-right: 1rem;
+}
+.total__container {
+  margin-top: 1rem;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  line-height: 1.5;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.mint__btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.until {
+  padding-right: 1rem;
+}
+@media (max-width: 500px) {
+  .gif__container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .mint__counter__container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .max {
+    margin-bottom: 1rem;
+  }
+}
