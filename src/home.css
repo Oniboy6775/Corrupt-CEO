@@ -48,6 +48,11 @@
   font-size: larger;
   color: var(--primary-500);
 }
+.whitelist__items {
+  font-size: small;
+  color: var(--primary-500);
+  text-transform: capitalize !important;
+}
 .gif {
   width: 80%;
 }
