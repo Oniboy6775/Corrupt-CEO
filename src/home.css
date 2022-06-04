@@ -91,6 +91,7 @@
   .gif__container {
     flex-direction: column-reverse;
     width: 100%;
+    margin-bottom: 1rem;
   }
   .mint__counter__container {
     flex-direction: column-reverse;

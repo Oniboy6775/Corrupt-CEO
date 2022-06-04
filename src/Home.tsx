@@ -508,30 +508,17 @@ const Home = (props: HomeProps) => {
     right: 0;
     bottom: 0;
     padding: 0 2rem;
+    min-height: 100vh;
   `;
   const NavContainer = styled.div`
-    padding: 1rem 0 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 1rem 0;
   `;
 
   return (
     <MyContainer className="">
-      {/* <Container maxWidth="xs" style={{ position: 'relative' }}> */}
       <NavContainer>
-        <div className="nav">
-          <div className="logo">
-            <img
-              src="
-          ./assets/logo.png
-          "
-              width={"50px"}
-              alt=""
-              className=""
-            />
-          </div>
-        </div>
         <div>
           <button className="connect_wallet__btn btn">
             {!wallet.connected ? "DISCONNECTED" : "CONNECTED"}
@@ -564,13 +551,13 @@ const Home = (props: HomeProps) => {
 
               <div className="min__price row">
                 <p className="col">WHITELIST</p>{" "}
-                <p className="col">{/* {cost}  */}1 SOL</p>
+                <p className="col">{/* {cost}  */}2 SOL</p>
               </div>
               <div className="max__price row">
                 <p className="col">PUBLIC SALE</p>{" "}
                 <p className="col">
                   {/* {displayCost} 10 */}
-                  1.9 SOL
+                  2.5 SOL
                 </p>
               </div>
               <div className="min__price row">
@@ -593,7 +580,7 @@ const Home = (props: HomeProps) => {
               onClick={() => {
                 maxMint();
               }}
-              className="  btn"
+              className=" max  btn"
             >
               10 MAX
             </div>
@@ -601,7 +588,7 @@ const Home = (props: HomeProps) => {
           {/* Total */}
           <div className="total__container row">
             <p className="total__text">Total</p>
-            <p className="total">{mintAmount * 1} SOL</p>
+            <p className="total">{mintAmount * 2} SOL</p>
           </div>
         </div>
 
