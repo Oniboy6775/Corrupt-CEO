@@ -509,6 +509,7 @@ const Home = (props: HomeProps) => {
     bottom: 0;
     padding: 0 2rem;
     min-height: 100vh;
+    height: fit-content;
   `;
   const NavContainer = styled.div`
     display: flex;
