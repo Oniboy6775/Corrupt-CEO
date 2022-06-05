@@ -565,7 +565,7 @@ const Home = (props: HomeProps) => {
                 <p className="col total__items">TOTAL SUPPLY: 5000</p>
               </div>
               <div className="min__price row">
-                <p className="col whitelist__items">WHITE LIST SUPPLY: 1750</p>
+                <p className="col whitelist__items">WHITELIST SUPPLY: 1750</p>
               </div>
             </div>
           </div>
